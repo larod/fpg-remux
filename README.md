@@ -8,4 +8,18 @@ Since I use ffmpeg to transcode movie files constantly, I got tired of making al
 - Since I mostly watch my movies on a 2.1 setup or on my bluetooth headphones, the audio streams are set to be encoded using Dolby Pro Logic II. If you have a multichannel setup you might want to change the audio encoding settings and skip DPII in favor of a 5.1 setup.
 - The add subtitle function is coded for spanish, if you want another language you need to change `language=spa` to whatever language you usually use. Or maybe just remove it if you don't actually use subs with your movie files.
 
+# Usage
+```
+Usage: fpg-remux [-i file] [-s subtitle] [-t title] [-o output]
+   or: fpg-remux [-i file] [-t title] [-o output]
+   or: fpg-remux [-i file] [-s subtitle] [-o output]
+   or: fpg-remux [-i file] [-a] [-s subtitle] [-o output]
+   or: fpg-remux [-i file] [-o output]
+
+    -i, --input	File to be transcoded
+    -s, --sub	Subtitle file
+    -t, --title	Media title tag
+    -a, --add 	Add subtitle file only
+    -o, --output	Output file
+```    
 Have fun!

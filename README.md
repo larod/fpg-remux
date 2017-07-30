@@ -16,10 +16,10 @@ Usage: fpg-remux [-i file] [-s subtitle] [-t title] [-o output]
    or: fpg-remux [-i file] [-a] [-s subtitle] [-o output]
    or: fpg-remux [-i file] [-o output]
 
-    -i, --input	File to be transcoded
-    -s, --sub	Subtitle file
-    -t, --title	Media title tag
-    -a, --add 	Add subtitle file only
-    -o, --output	Output file
+    -i, --input   File to be transcoded
+    -s, --sub     Subtitle file
+    -t, --title   Media title tag
+    -a, --add     Add subtitle file only
+    -o, --output  Output file
 ```    
 Have fun!
